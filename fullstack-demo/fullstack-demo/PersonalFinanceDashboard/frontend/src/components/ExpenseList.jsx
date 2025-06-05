@@ -7,7 +7,7 @@ const ExpenseList = ({ transactions }) => {
       <ul>
         {transactions.map((t, index) => (
           <li key={index}>
-            {t.description}: ${t.amount} ({t.type})
+            <strong>{t.description}</strong> - ${t.amount} ({t.type}, {t.category})
           </li>
         ))}
       </ul>
