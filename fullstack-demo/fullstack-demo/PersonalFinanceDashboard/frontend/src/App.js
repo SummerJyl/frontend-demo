@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import BudgetSummary from './components/BudgetSummary';
 import TransactionForm from './components/TransactionForm';
+import BudgetSummary from './components/BudgetSummary';
 import ExpenseList from './components/ExpenseList';
 import SpendingChart from './components/SpendingChart';
 import './App.css';
